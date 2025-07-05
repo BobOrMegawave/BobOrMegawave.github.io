@@ -1,11 +1,11 @@
 @font-face {
 	font-family: coolFont;
-	src: url(./public/TrajanProRegular.tff);
+	src: url(./Trajan_ProRegular.ttf);
 }
 
 @font-face {
 	font-family: coolFont;
-	src: url(./public/TrajanBold.tff);
+	src: url(./Trajan_Bold.ttf);
 	font-weight: bold;
 }
 
