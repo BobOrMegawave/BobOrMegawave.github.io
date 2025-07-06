@@ -1,12 +1,17 @@
 @font-face {
 	font-family: coolFont;
-	src: url(./Trajan_ProRegular.ttf);
+	src: url(./Trajan_Pro_Regular.ttf);
 }
 
 @font-face {
 	font-family: coolFont;
 	src: url(./Trajan_Bold.ttf);
 	font-weight: bold;
+}
+
+@font-face {
+	font-family: coolFont2;
+	src: url(./perpetua.ttf);
 }
 
 body {
@@ -18,6 +23,30 @@ h1 {
     text-align: center;
     font-family: coolFont, sans-serif;
     font-weight: bold;
+	text-shadow: 0 0 10px #F0FFFF;
+	color: azure;
+}
+
+h2 {
+	margin-top: 0px;
+	font-family:coolFont;
+}
+
+table, th, td {
+	border-width:2px;
+	border-style:solid;
+	border-color: mediumaquamarine;
+	border-collapse: collapse;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-family:coolFont2;
+	font-size:20px;
+	color: midnightblue;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
 .forms {
@@ -33,6 +62,19 @@ h1 {
     border-width: 4px;
     border-style: solid;
     border-color: mediumaquamarine;
-    border-image: initial;
 }
 
+.scoreboard {
+	background-color: azure;
+	color: midnightblue;
+	box-shadow: steelblue 0px 0px 6px 6px;
+	width: 50%;
+	max-width: 350px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 4px;
+	border-style: solid;
+	border-color: mediumaquamarine;
+	padding:10px;
+}
