@@ -49,6 +49,20 @@ table, th, td {
 	
 }
 
+.fieldsets {
+	background-color: paleturquoise;
+	padding: 10px;
+}
+
+.legends {
+	background-color: #99bbff;
+	padding: 5px;
+	color: darkslateblue;
+	border-width: 1px;
+	border-style: solid;
+	border-color: darkblue
+}
+
 .forms {
     background-color: azure;
     color: midnightblue;
@@ -78,3 +92,4 @@ table, th, td {
 	border-color: mediumaquamarine;
 	padding:10px;
 }
+
