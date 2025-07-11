@@ -164,8 +164,7 @@ table, th, td {
 	background-color: azure;
 	color: midnightblue;
 	box-shadow: steelblue 0px 0px 6px 6px;
-	width: 50%;
-	max-width: 350px;
+	width: 350px;
 	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;
