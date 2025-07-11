@@ -21,45 +21,69 @@
                     <form id="winDetailsForm" method="get">
                         <fieldset class="fieldsets">
                             <legend class="legends">How much han?</legend>
-                            <label><input type="radio" name="han" value="5" required="">5</label>
-                            <label><input type="radio" name="han" value="6">6</label>
-                            <label><input type="radio" name="han" value="7">7</label>
-                            <label><input type="radio" name="han" value="8">8</label>
-                            <label><input type="radio" name="han" value="9">9</label>
-                            <label><input type="radio" name="han" value="10">10</label>
+							<div class="customradio">
+								<label class="radios"><input type="radio" name="han" value="5" required="">5</label>
+							</div class="customradio">
+                            <div class="customradio">
+								<label class="radios"><input type="radio" name="han" value="6">6</label>
+							</div class="customradio">
+                            <div class="customradio">
+								<label class="radios"><input type="radio" name="han" value="7">7</label>
+							</div class="customradio">
+                            <div class="customradio">
+								<label class="radios"><input type="radio" name="han" value="8">8</label>
+							</div class="customradio">
+                            <div class="customradio">
+								<label class="radios"><input type="radio" name="han" value="9">9</label>
+							</div class="customradio">
+                            <div class="customradio">
+								<label class="radios"><input type="radio" name="han" value="10">10</label>
+							</div class="customradio">
                         </fieldset>
                         <fieldset class="fieldsets">
                             <legend class="legends">Who won?</legend>
-                            <label><input type="radio" name="winner" value="P1" required="">P1</label>
-                            <label><input type="radio" name="winner" value="P2">P2</label>
-                            <label><input type="radio" name="winner" value="P3">P3</label>
+							<div class="customradio">
+								<label class="radios"><input type="radio" name="winner" value="P1" required="">P1</label>
+							</div class="customradio">
+                            <div class="customradio">
+								<label class="radios"><input type="radio" name="winner" value="P2">P2</label>
+							</div class="customradio">
+                            <div class="customradio">
+								<label class="radios"><input type="radio" name="winner" value="P3">P3</label>
+							</div class="customradio">
                         </fieldset class="fieldsets">
                         <fieldset class="fieldsets">
                             <legend class="legends">Who dealt in? (If tsumo, just click the winner)</legend>
-                            <label><input type="radio" name="loser" value="P1" required="">P1</label>
-                            <label><input type="radio" name="loser" value="P2">P2</label>
-                            <label><input type="radio" name="loser" value="P3">P3</label>
+                            <div class="customradio">
+								<label class="radios"><input type="radio" name="loser" value="P1" required="">P1</label>
+							</div class="customradio">
+                            <div class="customradio">
+								<label class="radios"><input type="radio" name="loser" value="P2">P2</label>
+							</div class="customradio">
+                            <div class="customradio">
+								<label class="radios"><input type="radio" name="loser" value="P3">P3</label>
+							</div class="customradio">
                         </fieldset>
                         <fieldset class="fieldsets">
                             <legend class="legends">How many Fey?</legend>
-                            <input type="text" name="feyAmount1" placeholder="P1" required="">
-                            <input type="text" name="feyAmount2" placeholder="P2" required="">
-                            <input type="text" name="feyAmount3" placeholder="P3" required="">
+                            <input type="text" name="feyAmount1" class="inputboxes" placeholder="P1" required="">
+                            <input type="text" name="feyAmount2" class="inputboxes" placeholder="P2" required="">
+                            <input type="text" name="feyAmount3" class="inputboxes" placeholder="P3" required="">
                         </fieldset>
-                        <button type="submit">Submit</button>
+                        <button type="submit" class="specilbuttons">Submit</button>
                     </form>
                 </section>
                 <section id="ManualInput">
                     <h2>Manual Input Form</h2>
-                    <button onclick="showManualInputForm()">Click here to show/hide the manual input form</button>
+                    <button onclick="showManualInputForm()" class="specilbuttons">Click here to show/hide the manual input form</button>
                     <form id="manualInputForm" method="get" style="display: none">
                         <fieldset class="fieldsets">
                             <legend class="legends">Type the gained/lost score for every player here.</legend>
-                            <input type="text" name="P1Score" placeholder="P1" required="">
-                            <input type="text" name="P2Score" placeholder="P2" required="">
-                            <input type="test" name="P3Score" placeholder="P3" required="">
+                            <input type="text" name="P1Score" class="inputboxes" placeholder="P1" required="">
+                            <input type="text" name="P2Score" class="inputboxes" placeholder="P2" required="">
+                            <input type="test" name="P3Score" class="inputboxes" placeholder="P3" required="">
                         </fieldset>
-                        <button type="submit">Submit</button>
+                        <button type="submit" class="specilbuttons">Submit</button>
 					</form>
 				</section>
             </div>

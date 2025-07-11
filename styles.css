@@ -14,10 +14,19 @@
 	src: url(./perpetua.ttf);
 }
 
+
 body {
-    background-image: url(./City_of_Tears_Fountain_Square.png);
-    background-size: 100vw 100vh;
+	background-image: url(./abyss.jpg);
+	background-size: 100% 100%;
 }
+
+@media only screen and (min-width: 400px) {
+	body {
+		background-image: url(./City_of_Tears_Fountain_Square.png);
+		background-size: 100% 100%;
+	}
+}
+
 
 h1 {
     text-align: center;
@@ -52,6 +61,7 @@ table, th, td {
 .fieldsets {
 	background-color: paleturquoise;
 	padding: 10px;
+	margin-bottom: 10px;
 }
 
 .legends {
@@ -61,6 +71,78 @@ table, th, td {
 	border-width: 1px;
 	border-style: solid;
 	border-color: darkblue
+}
+
+.radios {
+	display: grid;
+	place-items: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+.radios input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.customradio {
+	position: relative;
+	border-width: 1px;
+	border-style: solid;
+	border-color: darkblue;
+	background-color: #6699ff;
+	height: 27px;
+	width: 48px;
+	margin-bottom: 7px;
+	margin-left: 8px;
+}
+
+.customradio:hover {
+	background-color: #3377ff;
+}
+
+.inputboxes {
+	display: block;
+	background-color: #6699ff;
+	font-family: coolFont;
+	color: midnightblue;
+	font-size: 17px;
+	margin-left: 8px;
+	margin-bottom: 7px;
+	height: 27px;
+	width: 108px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: darkblue;
+}
+
+.inputboxes:focus {
+	background-color: #4d88ff;
+}
+
+.specilbuttons {
+	border-width: 1px;
+	border-style: solid;
+	border-color: darkblue;
+	background-color: #66b3ff;
+	margin-bottom: 7px;
+	border-radius: 2px;
+	font-family: coolFont;
+	font-size: 17px;
+}
+
+.specilbuttons:hover {
+	background-color: #3399ff;
+}
+
+.specilbuttons:active {
+	background-color: #4da6ff;
 }
 
 .forms {

@@ -1,4 +1,4 @@
-const baseScore = 10;
+const baseScore = 1;
 
 function isExplosion(hanAmount) {
     if (hanAmount == 10) {
@@ -77,3 +77,16 @@ document.getElementById("manualInputForm").addEventListener("submit", event => {
     document.getElementById("P2").innerHTML = Number(document.getElementById("P2").innerHTML) + Number(submittedData.get("P2Score"));
     document.getElementById("P3").innerHTML = Number(document.getElementById("P3").innerHTML) + Number(submittedData.get("P3Score"));
 })
+
+for (const customradio of document.getElementsByClassName("customradio")) {
+	customradio.addEventListener("click", event => {
+		for (button of document.getElementsByClassName("customradio")) {
+			if (button.firstElementChild.firstElementChild.checked == true) {
+				button.style.backgroundColor = "#1a66ff"
+			}
+			else {
+				button.style.backgroundColor = "#6699ff"
+			}
+		}
+	})
+}
